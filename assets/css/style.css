@@ -1,0 +1,26 @@
+@import "./header.css";
+@import "./main.css";
+
+* {
+  background: #01161e;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+body {
+  margin: 200px auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #415a77;
+}
